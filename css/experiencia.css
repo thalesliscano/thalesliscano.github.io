@@ -113,6 +113,9 @@
         text-align: left;
     }
     
+    strong a {
+        font-size: 0.875rem;
+    }
 }
 
 @media (max-width:450px){
