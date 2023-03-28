@@ -48,8 +48,38 @@
     gap: 40px;
   }
 
-  .footer-contato {
+  .footer-contato li, a {
      font-size: 1.5rem;
   }
+}
 
+@media (max-width:500px) {
+  .footer-container {
+  align-content: initial; 
+  padding: 60px 20px 30px 20px;
+  }
+
+  .footer-texto {
+    font-size: 1.3rem;
+
+  }
+
+  .footer-contato {
+     font-size: 1.0rem;
+    
+
+  }
+
+
+}
+
+@media (max-width:500px) {
+  .footer-texto {
+    font-size: 1.2rem;
+
+  }
+  .footer-contato {
+    font-size: 0.900rem;
+    word-break: break-all;
+ }
 }
