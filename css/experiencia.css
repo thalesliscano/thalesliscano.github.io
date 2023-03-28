@@ -18,6 +18,11 @@
     margin-bottom: 60px;
     max-width: 44ch;
     color: #525252;
+    text-align: justify;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    -ms-hyphenate-limit-zone: 8%;
 }
 
 .experiencia-texto strong {
@@ -66,6 +71,11 @@
     font-size: 0.875rem;
     line-height: 1.4;
     color: #525252;
+    text-align: justify;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    -ms-hyphenate-limit-zone: 8%;
 }
 
 .empresa-texto a {

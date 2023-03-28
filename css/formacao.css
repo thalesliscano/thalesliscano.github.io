@@ -35,6 +35,11 @@
     margin-bottom: 60px;
     max-width: 44ch;
     color: #a3a3a3;
+    text-align:justify;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    -ms-hyphenate-limit-zone: 8%;
 }
 
 .formacao-texto strong {

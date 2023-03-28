@@ -17,6 +17,11 @@
   font-size: 1.5rem;
   line-height: 1.33;
   color: #cccccc;
+  text-align: justify;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    -ms-hyphenate-limit-zone: 8%;
 }
 
 .footer-contato li {
